@@ -24,3 +24,15 @@
 # print(type(cgpa))
 # print(type(is_adult))
 # print(type(not_adult))
+secretno = 5
+attempts = 7
+guessno = input
+for i in range(1,11):
+    if(guessno == secretno):
+     print(youfindit)  
+    elif(guessno<i):
+       print(missed)
+    elif(guessno>i):
+       print(againmissed)
+    else:
+       (loose)
